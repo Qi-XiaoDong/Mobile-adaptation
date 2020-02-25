@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+  <title>vw布局</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <script>
+    /*
+      html font-size: 100 * (414 / 1080)  38.333333333333336
+      1vw = 414 / 100 = 4.14px
+      38.333333333333336/4.14=9.259259259259261vw
+    */
+  </script>
+</head>
+
+<body>
+  <header class="header clearfix">
+    <h1 class="logo left">
+      <a href="#"><span>天天新鲜</span></a>
+    </h1>
+    <div class="search_btn right">
+      <span class="search"></span>
+      <span class="more"></span>
+    </div>
+  </header>
+
+  <!-- 内容 -->
+  <section class="content">
+    <!-- banner -->
+    <section class="banner">
+      <div class="moveWrap clearfix">
+        <a href="#"><img src="./images/banner.jpg" alt=""></a>
+        <a href="#"><img src="./images/banner.jpg" alt=""></a><a href="#"><img src="./images/banner.jpg" alt=""></a><a
+          href="#"><img src="./images/banner.jpg" alt=""></a>
+      </div>
+      <div class="control">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+      </div>
+    </section>
+    <!-- nav -->
+    <nav class="nav clearfix">
+      <a href=""><img src="./images/ico_03.png" alt="">
+        <p>天天菜市</p>
+      </a>
+      <a href=""><img src="./images/ico_04.png" alt="">
+        <p>我的订单</p>
+      </a>
+      <a href=""><img src="./images/ico_05.png" alt="">
+        <p>充值有礼</p>
+      </a>
+      <a href=""><img src="./images/ico_06.png" alt="">
+        <p>积分商城</p>
+      </a>
+    </nav>
+    <!-- ad -->
+    <section class="ad clearfix">
+      <a href="#"><img src="./images/img_01.jpg" alt=""></a>
+    </section>
+    <!-- goods-->
+    <section class="item">
+      <div>
+        <a href="#"><img src="./images/img_02.jpg" alt=""></a>
+      </div>
+      <div class="coloum">
+        <a href="#"><img src="./images/img_03.jpg" alt=""></a>
+        <a href="#"><img src="./images/img_04.jpg" alt=""></a>
+      </div>
+    </section>
+
+    <section class="item pb">
+      <div class="coloum">
+        <a href="#"><img src="./images/img_03.jpg" alt=""></a>
+        <a href="#"><img src="./images/img_04.jpg" alt=""></a>
+      </div>
+      <div>
+        <a href="#"><img src="./images/img_02.jpg" alt=""></a>
+      </div>
+
+    </section>
+  </section>
+  <!-- 导航 -->
+  <footer class="footer clearfix">
+    <a href="#"><img src='./images/ico_07.png' alt=""></a>
+    <a href="#"><img src='./images/ico_08.png' alt=""></a>
+    <a href="#"><img src='./images/ico_09.png' alt=""></a>
+    <a href="#"><img src='./images/ico_10.png' alt=""></a>
+  </footer>
+</body>
+
+</html>
